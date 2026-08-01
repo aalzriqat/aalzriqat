@@ -12,11 +12,11 @@
   <rect width="1200" height="270" fill="#ffffff"/>
   <rect x="72" y="30" width="44" height="3" rx="1.5" fill="url(#accent)"/>
 
-  <text x="72" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">1,059</text>
+  <text x="72" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">1,064</text>
   <text x="72" y="112" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#59636e">CONTRIBUTIONS · LAST YEAR</text>
-  <text x="424" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">891</text>
+  <text x="424" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">895</text>
   <text x="424" y="112" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#59636e">COMMITS · LAST YEAR</text>
-  <text x="776" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">18</text>
+  <text x="776" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">19</text>
   <text x="776" y="112" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#59636e">PUBLIC REPOSITORIES</text>
 
   <line x1="72" y1="140" x2="1128" y2="140" stroke="#d1d9e0" stroke-width="1"/>
@@ -24,14 +24,14 @@
 
   <rect x="72" y="182" width="1056" height="10" rx="5" fill="#eaeef2"/>
   <g clip-path="url(#barclip)">
-    <rect x="72.00" y="182" width="979.41" height="10" fill="#3178c6"/>
-    <rect x="1051.41" y="182" width="61.33" height="10" fill="#f1e05a"/>
-    <rect x="1112.73" y="182" width="11.91" height="10" fill="#663399"/>
+    <rect x="72.00" y="182" width="979.47" height="10" fill="#3178c6"/>
+    <rect x="1051.47" y="182" width="61.27" height="10" fill="#f1e05a"/>
+    <rect x="1112.75" y="182" width="11.90" height="10" fill="#663399"/>
     <rect x="1124.65" y="182" width="3.01" height="10" fill="#e34c26"/>
   </g>
 
   <circle cx="76" cy="228" r="4.5" fill="#3178c6"/>
-  <text x="89" y="232" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="12" fill="#59636e">TypeScript 92.7%</text>
+  <text x="89" y="232" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="12" fill="#59636e">TypeScript 92.8%</text>
   <circle cx="262" cy="228" r="4.5" fill="#f1e05a"/>
   <text x="275" y="232" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="12" fill="#59636e">JavaScript 5.8%</text>
   <circle cx="448" cy="228" r="4.5" fill="#663399"/>
