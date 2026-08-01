@@ -1,0 +1,8 @@
+# Keep committed assets LF regardless of the checkout platform. The SVGs are
+# served straight from raw.githubusercontent.com, so byte-level churn from
+# CRLF conversion would show up as spurious diffs on every Windows checkout.
+* text=auto eol=lf
+*.svg text eol=lf
+*.md  text eol=lf
+*.mjs text eol=lf
+*.yml text eol=lf
