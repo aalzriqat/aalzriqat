@@ -1,0 +1,51 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    # 04:20 UTC daily. Off the hour on purpose — GitHub delays cron jobs that are
+    # scheduled on popular round times.
+    - cron: "20 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build-stats.mjs"
+      - ".github/workflows/stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate stat cards
+        env:
+          # Optional: set a PROFILE_STATS_TOKEN secret (classic PAT, read:user scope)
+          # to include private contributions in the totals. Falls back to the
+          # built-in token, which counts public activity only.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+        run: node scripts/build-stats.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- assets; then
+            echo "Stats unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "chore: refresh profile stats"
+          git push
