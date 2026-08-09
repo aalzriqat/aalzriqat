@@ -12,9 +12,9 @@
   <rect width="1200" height="270" fill="#ffffff"/>
   <rect x="72" y="30" width="44" height="3" rx="1.5" fill="url(#accent)"/>
 
-  <text x="72" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">1,248</text>
+  <text x="72" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">1,255</text>
   <text x="72" y="112" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#59636e">CONTRIBUTIONS · LAST YEAR</text>
-  <text x="424" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">1,037</text>
+  <text x="424" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">1,039</text>
   <text x="424" y="112" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#59636e">COMMITS · LAST YEAR</text>
   <text x="776" y="86" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="-1" fill="#1f2328">19</text>
   <text x="776" y="112" font-family="ui-monospace, 'SFMono-Regular', 'Cascadia Mono', Menlo, Consolas, monospace" font-size="11.5" letter-spacing="2.2" fill="#59636e">PUBLIC REPOSITORIES</text>
@@ -24,10 +24,10 @@
 
   <rect x="72" y="182" width="1056" height="10" rx="5" fill="#eaeef2"/>
   <g clip-path="url(#barclip)">
-    <rect x="72.00" y="182" width="985.80" height="10" fill="#3178c6"/>
-    <rect x="1057.80" y="182" width="56.32" height="10" fill="#f1e05a"/>
-    <rect x="1114.13" y="182" width="10.83" height="10" fill="#663399"/>
-    <rect x="1124.95" y="182" width="2.74" height="10" fill="#e34c26"/>
+    <rect x="72.00" y="182" width="986.03" height="10" fill="#3178c6"/>
+    <rect x="1058.03" y="182" width="56.14" height="10" fill="#f1e05a"/>
+    <rect x="1114.17" y="182" width="10.79" height="10" fill="#663399"/>
+    <rect x="1124.96" y="182" width="2.73" height="10" fill="#e34c26"/>
   </g>
 
   <circle cx="76" cy="228" r="4.5" fill="#3178c6"/>
